@@ -1,25 +1,23 @@
 import { NextResponse } from "next/server";
 import { execFileSync } from "child_process";
 import fs from "fs";
+import path from "path";
 
 export async function POST(req) {
   try {
     const code = await req.text();
 
-    // ✅ write to /tmp instead of project folder
-    const tempFile = "/tmp/input.txt";
+    const tempFile = path.join(process.cwd(), "input.txt");
     fs.writeFileSync(tempFile, code);
 
-    // parser.exe must be inside the deployment bundle
-    // so this path is fine
-    const parserPath = process.cwd() + "/parser.exe";
+    const parserPath = path.join(process.cwd(), "parser.exe");
 
     const command = `"${parserPath}" < "${tempFile}"`;
 
-    const output = execFileSync(command, {
-      shell: true,
-      encoding: "utf8",
-    });
+const output = execFileSync(parserPath, {
+  input: code,
+  encoding: "utf8",
+});
 
     return NextResponse.json({ output });
 
