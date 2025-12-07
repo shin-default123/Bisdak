@@ -340,7 +340,7 @@ katapusan`
                       </div>
                     </div>
                   ) : displayed ? (
-                    <pre className="text-yellow-300 font-mono text-sm whitespace-pre-wrap break-words">
+                    <pre className="text-yellow-300 font-mono text-sm whitespace-pre-wrap ">
                       {displayed}
                     </pre>
                   ) : (
