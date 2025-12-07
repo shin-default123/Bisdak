@@ -1,0 +1,3 @@
+sugod
+  ipakita: "Hello&*World";
+katapusan

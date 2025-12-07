@@ -1,0 +1,23 @@
+{
+  "devFiles": [],
+  "ampDevFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [],
+  "rootMainFiles": [],
+  "pages": {
+    "/_error": [
+      "static/chunks/97b68_next_dist_compiled_c3e8d56b._.js",
+      "static/chunks/97b68_next_dist_shared_lib_9ee59e5f._.js",
+      "static/chunks/97b68_next_dist_client_71fcb7b7._.js",
+      "static/chunks/97b68_next_dist_eb93db0b._.js",
+      "static/chunks/97b68_next_error_08b4458e.js",
+      "static/chunks/[next]_entry_page-loader_ts_afdbf01a._.js",
+      "static/chunks/97b68_react-dom_ed676899._.js",
+      "static/chunks/97b68_89e0377d._.js",
+      "static/chunks/[root-of-the-server]__dbb0d3c9._.js",
+      "static/chunks/bisdak_pages__error_2da965e7._.js",
+      "static/chunks/turbopack-bisdak_pages__error_e55c1e53._.js"
+    ]
+  },
+  "ampFirstPages": []
+}

@@ -1,0 +1,11 @@
+var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/_global-error/page.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0e2bc591._.js")
+R.c("server/chunks/ssr/bisdak_c3a165e1._.js")
+R.c("server/chunks/ssr/97b68_next_dist_28752992._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__b56af06e._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__00c89bf7._.js")
+R.c("server/chunks/ssr/97b68_next_dist_a3f20653._.js")
+R.c("server/chunks/ssr/bisdak_app_adb38ae7._.js")
+R.c("server/chunks/ssr/bisdak__next-internal_server_app__global-error_page_actions_fd9da471.js")
+R.m(57311)
+module.exports=R.m(57311).exports
