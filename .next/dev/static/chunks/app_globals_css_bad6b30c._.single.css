@@ -26,8 +26,6 @@
   :root, :host {
     --color-red-600: #e40014;
     --color-red-700: #bf000f;
-    --color-amber-600: #dd7400;
-    --color-amber-700: #b75000;
     --color-yellow-300: #ffe02a;
     --color-green-400: #05df72;
     --color-green-600: #00a544;
@@ -43,7 +41,6 @@
     --color-gray-700: #364153;
     --color-gray-800: #1e2939;
     --color-gray-900: #101828;
-    --color-black: #000;
     --color-white: #fff;
     --spacing: .25rem;
     --container-7xl: 80rem;
@@ -69,8 +66,6 @@
     :root, :host {
       --color-red-600: lab(48.4493% 77.4328 61.5452);
       --color-red-700: lab(40.4273% 67.2623 53.7441);
-      --color-amber-600: lab(60.3514% 40.5624 87.1228);
-      --color-amber-700: lab(47.2709% 42.9082 69.2966);
       --color-yellow-300: lab(89.7033% -.480324 84.4917);
       --color-green-400: lab(78.503% -64.9265 39.7492);
       --color-green-600: lab(59.0978% -58.6621 41.2579);
@@ -343,10 +338,6 @@
     margin-inline: auto;
   }
 
-  .mt-1 {
-    margin-top: calc(var(--spacing) * 1);
-  }
-
   .mt-2 {
     margin-top: calc(var(--spacing) * 2);
   }
@@ -439,10 +430,6 @@
     align-items: center;
   }
 
-  .justify-between {
-    justify-content: space-between;
-  }
-
   .justify-center {
     justify-content: center;
   }
@@ -457,10 +444,6 @@
 
   .gap-4 {
     gap: calc(var(--spacing) * 4);
-  }
-
-  .gap-6 {
-    gap: calc(var(--spacing) * 6);
   }
 
   .overflow-auto {
@@ -489,14 +472,6 @@
     border-color: var(--color-gray-700);
   }
 
-  .bg-amber-600 {
-    background-color: var(--color-amber-600);
-  }
-
-  .bg-black {
-    background-color: var(--color-black);
-  }
-
   .bg-blue-600 {
     background-color: var(--color-blue-600);
   }
@@ -523,10 +498,6 @@
 
   .p-4 {
     padding: calc(var(--spacing) * 4);
-  }
-
-  .p-6 {
-    padding: calc(var(--spacing) * 6);
   }
 
   .px-3 {
@@ -578,10 +549,6 @@
     font-weight: var(--font-weight-semibold);
   }
 
-  .break-words {
-    overflow-wrap: break-word;
-  }
-
   .whitespace-pre-wrap {
     white-space: pre-wrap;
   }
@@ -625,12 +592,6 @@
 
   .opacity-75 {
     opacity: .75;
-  }
-
-  @media (hover: hover) {
-    .hover\:bg-amber-700:hover {
-      background-color: var(--color-amber-700);
-    }
   }
 
   @media (hover: hover) {

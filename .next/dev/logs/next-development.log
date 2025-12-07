@@ -1,30 +1,4 @@
-[00:00:04.977] Server  LOG      ✓ Ready in 3.8s
-[00:00:08.077] Server  LOG      ○ Compiling / ...
-[00:00:10.394] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:43.269] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:55.626] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:26.571] Server  LOG      ✓ Compiled in 70ms
-[00:01:41.651] Server  LOG      ✓ Compiled in 29ms
-[00:02:00.762] Server  LOG      ✓ Compiled in 30ms
-[00:02:16.042] Server  LOG      ✓ Compiled in 29ms
-[00:02:49.317] Server  LOG      ✓ Compiled in 28ms
-[00:03:33.666] Server  LOG      ✓ Compiled in 133ms
-[00:09:58.596] Server  LOG      ✓ Compiled in 76ms
-[00:10:07.807] Server  LOG      ✓ Compiled in 53ms
-[00:11:32.890] Server  LOG      ✓ Compiled in 36ms
-[00:11:48.524] Server  LOG      ✓ Compiled in 40ms
-[00:11:51.937] Browser ERROR   Fetch error: {}
-[00:12:36.108] Server  LOG      ✓ Compiled in 32ms
-[00:13:33.808] Server  LOG      ✓ Compiled in 33ms
-[00:13:56.494] Server  LOG      ✓ Compiled in 47ms
-[00:14:19.741] Server  LOG      ✓ Compiled in 31ms
-[00:15:07.535] Server  LOG      ✓ Compiled in 30ms
-[00:15:22.913] Server  LOG      ✓ Compiled in 50ms
-[00:15:41.060] Server  LOG      ✓ Compiled in 29ms
-[00:15:43.276] Browser ERROR   Fetch error: {}
-[00:15:44.041] Browser ERROR   Fetch error: {}
-[00:15:50.711] Server  LOG      ✓ Compiled in 31ms
-[00:15:55.542] Server  LOG      ✓ Compiled in 41ms
-[00:18:41.994] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:19:05.761] Server  LOG      ✓ Compiled in 39ms
-[00:19:13.509] Server  LOG      ✓ Compiled in 33ms
+[00:00:03.657] Server  LOG      ✓ Ready in 2.6s
+[00:00:08.032] Server  LOG      ○ Compiling / ...
+[00:00:10.882] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:11.696] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

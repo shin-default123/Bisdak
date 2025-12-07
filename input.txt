@@ -1,3 +1,3 @@
 sugod
-  ipakita: "Hello&*World";
+  ipakita: 10*2;
 katapusan
