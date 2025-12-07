@@ -14,10 +14,10 @@ export async function POST(req) {
 
     const command = `"${parserPath}" < "${tempFile}"`;
 
-const output = execFileSync(parserPath, {
-  input: code,
-  encoding: "utf8",
-});
+    const output = execFileSync(command, {
+      shell: true,
+      encoding: "utf8",
+    });
 
     return NextResponse.json({ output });
 
